@@ -1,4 +1,5 @@
-// Generate Random Number 1
+function rollTheDices(){
+    // Generate Random Number 1
 randomNumber1 = Math.floor(Math.random() * 6) + 1;
 // Generating random number 2
 randomNumber2 = Math.floor(Math.random() * 6) + 1;
@@ -57,3 +58,8 @@ else if(randomNumber1 < randomNumber2){
 else{
     title.textContent="Its a Draw";
 }
+}
+function reset(){
+    location.reload();
+}
+
